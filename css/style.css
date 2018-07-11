@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  color: #4D4949;
+}
+
+video {
+  margin: 0 auto;
+  display: block;
+}
+
+video {
+  width: 1000px;
+}
