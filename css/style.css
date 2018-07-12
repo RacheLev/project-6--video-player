@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 
 body {
@@ -7,11 +8,7 @@ body {
   color: #4D4949;
 }
 
-video {
-  margin: 0 auto;
-  display: block;
-}
-
-video {
-  width: 80%;
+.mejs__player {
+   display: block;
+   margin: 0 auto;
 }
