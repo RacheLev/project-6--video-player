@@ -15,11 +15,11 @@ video.addEventListener("timeupdate", () => {
 });
 
 //When the user clicks on any sentence in the transcript the video player jumps to the appropriate time in the video
- transcript.addEventListener("click", () => {
-  for (let i = 0; i < transcript.length; i++) {
-     if(   ==transcript[i]) {
-        video.currentTime = transcript[i].getAttribute('data-start');
-
+  transcript.addEventListener("click", () => {
+   for (let i = 0; i < transcript.length; i++) {
+  //    if(   ==transcript[i]) {
+  //     video.currentTime = transcript[i].getAttribute('data-start');
+// //     video.play();
+      //}
      }
-    }
    });
