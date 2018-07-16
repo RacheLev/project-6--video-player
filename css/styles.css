@@ -1,3 +1,7 @@
+.videoWrapper {
+  margin: 0 auto;
+  display: block; }
+
 * {
   box-sizing: border-box; }
 
@@ -5,7 +9,27 @@ p {
   padding: 10px 25px;
   margin-top: 1.5em;
   line-height: 1.7;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: #4D4949; }
+
+@media (min-width: 768px) {
+  body {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    padding-top: 1.5em; } }
+
+@media (min-width: 768px) {
+  body {
+    margin: 0 auto;
+    display: block;
+    max-width: 1100px; } }
+
+.videoWrapper {
+  width: 100%;
+  height: auto; }
+
+.mejs__controls {
+  background: #800000 !important; }
 
 /*# sourceMappingURL=styles.css.map */

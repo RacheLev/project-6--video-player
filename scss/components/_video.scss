@@ -1,0 +1,10 @@
+.videoWrapper {
+  @extend %center;
+  width:100%;
+  height: auto;
+
+ }
+
+.mejs__controls {
+	background: $color-mejs__controls;
+}
