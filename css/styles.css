@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box; }
+
+p {
+  padding: 10px 25px;
+  margin-top: 1.5em;
+  line-height: 1.7;
+  font-family: 'Noto Sans', sans-serif;
+  color: #4D4949; }
+
+/*# sourceMappingURL=styles.css.map */
