@@ -15,10 +15,11 @@
 	<body>
 
 			<div class="videoWrapper">
-				<video id="myVideo" style="width: 100%; height: 100%">
+				<video class"mejs__controls" id="myVideo" style="width: 100%; height: 100%">
 					<source src="video/video.mp4" type="video/mp4">
 					<source src="video/video.ogg" type="video/ogg">
-					<track label="English" kind="subtitles" srclang="en" src="video/subtitles.vtt" default>
+					<track label="English" kind="subtitles" srclang="en" default>
+					Your browser does not support the video tag.
 				</video>
 			</div>
 
@@ -29,7 +30,7 @@
 	});
 </script>
 
-<p>
+<p class="wrapper">
 	<span class="transcript" data-start="0.0" data-end="4.130">Now that we've looked at the architecture
 of the internet, let's see how you might
 	</span>
