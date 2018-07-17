@@ -1,5 +1,5 @@
 // Calculate em values
 
-@function em($target, $contex:$base__font-size) {
+@function em($target, $contex:$base-font-size) {
   @return($target / $contex) * 1em;
 }

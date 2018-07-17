@@ -1,4 +1,9 @@
 
+$('video').mediaelementplayer({
+  features: ['playpause', 'progress', 'fullscreen', 'volume'],
+  startLanguage: 'en'
+});
+
 const video = document.getElementById('myVideo');
 const transcript = document.querySelectorAll('span');
 const wrap = document.querySelector('.wrapper');
