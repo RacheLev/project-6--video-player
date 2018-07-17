@@ -313,6 +313,9 @@ p {
   font-family: "Noto Sans", sans-serif;
   color: #4D4949; }
 
+span {
+  cursor: pointer; }
+
 @media (min-width: 768px) {
   body {
     margin: 0 auto;

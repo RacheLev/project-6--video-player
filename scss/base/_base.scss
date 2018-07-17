@@ -8,7 +8,10 @@ p {
   line-height: 1.7;
   font-family: $stack-sans-serif;
   color: $color-text-base;
+}
 
+span {
+  cursor: pointer;
 }
 
 body {
